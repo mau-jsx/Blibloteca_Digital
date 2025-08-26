@@ -1,4 +1,4 @@
-import { IUsuario } from "../src/interface/IUsuario.js";
+import type { IUsuario } from "../interface/IUsuario.js";
 import { Material } from "./Material.js";
 
 export class Usuario implements IUsuario {

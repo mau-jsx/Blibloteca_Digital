@@ -1,4 +1,4 @@
-import { Material } from "../models/Material";
+import type { Material } from "../models/Material.js";
 
 export interface IUsuario {
   id: number;

@@ -1,6 +1,6 @@
-import { Libro } from "./models/Libros";
-import { Revista } from "./models/Revista";
-import { Usuario } from "./models/Usuario";
+import { Libro } from "./models/Libros.js";
+import { Revista } from "./models/Revista.js";
+import { Usuario } from "./models/Usuario.js";
 
 console.log("Bienvenido a la biblioteca digital.");
 

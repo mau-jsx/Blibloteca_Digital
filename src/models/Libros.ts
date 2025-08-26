@@ -2,14 +2,14 @@ import { Material } from "./Material.js";
 
 export class Libro extends Material {
   paginas: number;
-  genero?: string;
+  genero?: string | undefined;
 
   constructor(
     id: number,
     titulo: string,
     autor: string,
     paginas: number,
-    genero?: string
+    genero?: string | undefined
   ) {
     super(id, titulo, autor);
     this.paginas = paginas;
